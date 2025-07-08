@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  TestNG Suite configuration file for the Ambient project.
+  Defines a test suite named "Ambient Test Suite" that includes both API and UI tests.
+-->
+
+<suite name="Ambient Test Suite">
+
+    <!-- Defines a test grouping within the suite -->
+    <test name="Ambient Tests">
+
+        <!-- List of test classes to execute -->
+        <classes>
+
+            <!-- API test class -->
+            <class name="com.ambient.tests.api.AmbientAPITests"/>
+
+            <!-- UI test class -->
+            <class name="com.ambient.tests.ui.AmbientUITests"/>
+
+        </classes>
+
+    </test>
+
+</suite>
